@@ -3,7 +3,7 @@ package com;
 public class ArmstrongNumber {
 	public static void main(String[] args) {
 	
-		int num  = 153;
+        for (int num = 100; num <= 999; num++) {
 		int o = num;
 		int rab = 0;
 		while(num>0)
@@ -17,7 +17,7 @@ public class ArmstrongNumber {
 		}else {
 			System.out.println("no");
 		}
+       }
 	}
-	
-
 }
+        

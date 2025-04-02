@@ -1,0 +1,18 @@
+package classwork;
+import java.util.ArrayList;
+
+public class ArrayListedd {
+	public static void main(String[] args) {
+		ArrayList <Integer> a = new ArrayList<Integer>();
+		a.add(44);
+		a.add(22);
+		a.add(33);
+		a.add(420);
+		a.remove(1);
+		a.set(3,44);
+		for (Integer i : a) {
+			System.out.println(i);
+		}
+	}
+
+}
