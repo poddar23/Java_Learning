@@ -1,0 +1,52 @@
+package assignment;
+
+class StudentProfile 
+{
+	private String name;
+	private int age;
+	private String grade;
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public int getAge() {
+		return age;
+	}
+	
+	public void setAge(int age) {
+		if (age > 0) {
+			this.age = age;
+		} else {
+			System.out.println("Age must be positive");
+		}
+	}
+	
+    public String getGrade() {
+    	return grade;
+    }
+    
+    public void setGrade(String grade) {
+    	this.grade = grade;
+    }
+}
+public class Lab4_c {
+	
+	public static void main(String[] args) {
+		
+		StudentProfile student = new StudentProfile();
+		
+		student.setName("Ronak");
+		student.setAge(22);
+		student.setGrade("A");
+		
+		System.out.println("Name: " + student.getName());
+		System.out.println("Age: " + student.getAge());
+		System.out.println("Grade: "+ student.getGrade());
+	}
+
+}
