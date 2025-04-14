@@ -20,7 +20,7 @@ public class Lab_5a {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(MaxOfThree.findMax(1, 20, 50));	
+		System.out.println(MaxOfThree.findMax(100, 20, 50));	
  }
 }
 
