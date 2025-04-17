@@ -1,0 +1,24 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class Lab_8a {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter number of rows: ");
+		int rows = scanner.nextInt();
+		
+		System.out.println("Enter number of columns: ");
+		int cols = scanner.nextInt();
+		
+		int[][] matrix1 = new int[rows][cols];
+		int[][] matrix2 = new int[rows][cols];
+		int[][] sum = new int[rows][cols];
+        int[][] diff = new int[rows][cols];
+
+		
+		
+		}
+
+}
