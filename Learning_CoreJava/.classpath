@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Mysql"/>
+	<classpathentry kind="lib" path="C:/Ronak Java Work/RS Jar/rs2xml.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
