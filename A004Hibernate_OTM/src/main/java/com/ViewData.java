@@ -1,4 +1,4 @@
-npackage com;
+package com;
 
 import java.util.List;
 
@@ -30,7 +30,11 @@ public class ViewData {
 			
 			for(Category c  :categories)
 			{
-				System.out.println(c.getName()+" "+c.getProducts().get());
+				System.out.println(c.getName()+" "+c.getId());
+				for (Product product : c.getProducts()) {
+					System.out.println(product.getName()+" "+product.getId());
+						
+				}
 			}
 			
 					
